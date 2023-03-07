@@ -1,7 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 html {
-    height: 100%;
+    margin: 0;
+    padding: 0;
 }
 
 body{
@@ -13,11 +14,9 @@ body{
 
 .head {
     width: 35%;
-    height: 100%;
     background: #395386;
     padding-top: 4em;
     padding-right: 4em;
-    padding-bottom: 8em;
     padding-left: 4em;
 }
 
@@ -44,11 +43,9 @@ body{
 
 .content {
     width: 65%;
-    height: 100%;
     background: white;
     padding-top: 4em;
     padding-right: 4em;
-    padding-bottom: 8em;
     padding-left: 4em;
 }
 
@@ -56,6 +53,10 @@ body{
     max-width: 1000px;
     margin-left: 0;
     margin-right: auto;
+}
+
+.three {
+    padding-bottom: 15px;
 }
 
 .summery {
@@ -68,8 +69,8 @@ body{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    max-height: 350px;
-    max-width: 300px;
+    max-height: 250px;
+    max-width: 250px;
     padding: 0;
     position: relative;
 }
@@ -98,6 +99,11 @@ body{
 
 #image_container:hover .github_link {
     opacity: 1;
+}
+
+.row {
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -141,3 +147,8 @@ hr {
     border-width: 3px;
     color: black;
 }
+
+ul.bot_list {
+    line-height: 14px;
+    padding-left: 20px;
+   }
